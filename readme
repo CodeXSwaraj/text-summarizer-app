@@ -6,50 +6,55 @@ This Streamlit app uses a pre-trained BART model from Hugging Face to generate c
 
 - Interactive text input area
 - Adjustable summarization settings:
-    - Maximum summary length
-    - Number of beams for beam search decoding
-- Clear visual feedback
--  Visual feedback for summarization settings.
+  - Maximum summary length
+  - Number of beams for beam search decoding
+- Clear visual feedback for summarization settings
 
 ## Running the App
 
-1. **Clone the Repository:**
-   ```bash
-   git clone <your_github_repo_url>
-Use code with caution.
-Markdown
-Install Dependencies:
+### 1. Clone the Repository
 
+```bash
+git clone <your_github_repo_url>
+```
+
+### 2. Install Dependencies
+
+```bash
 cd text-summarizer-app
 pip install -r requirements.txt
-Use code with caution.
-Bash
-Run the App:
+```
 
+### 3. Run the App
+
+```bash
 streamlit run app.py
-Use code with caution.
-Bash
-Deployment
-This app is deployed on Streamlit Sharing: [https://share.streamlit.io/your_username/text-summarizer-app/](replace with your Streamlit Sharing URL)
+```
 
-Contributing
+## Deployment
+
+This app is deployed on Streamlit Sharing: [Streamlit Sharing URL](https://share.streamlit.io/your_username/text-summarizer-app/) (replace with your Streamlit Sharing URL)
+
+## Contributing
+
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-Author
-[Your Name]
+## Author
 
-License
+[Swaraj Patil]
+
+## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-**Remember to:**
+## Important Notes
 
-- Replace `<your_github_repo_url>` with the actual URL of your GitHub repository.
-- Replace `[Your Name]` with your actual name.
-- Consider adding a more detailed description of your app and any specific features you've implemented.
-- If you want to use a different license, adjust the license section accordingly. 
-
-**Important:**
-
-- This is a template, you can customize it to better fit your specific project and needs. 
-- You can add sections like "Usage" with detailed instructions, "Examples" with sample input and output, "Known Issues," etc.
-- Always update the README with any changes you make to the code or features.
+- **Remember to:**
+  - Replace `https://github.com/CodeXSwaraj/text-summarizer-app.git` with the actual URL of your GitHub repository.
+  - Replace `[Swaraj Patil]` with your actual name.
+  - Consider adding a more detailed description of your app and any specific features you've implemented.
+  
+- **Customization:**
+  - This is a template; you can customize it to better fit your specific project and needs.
+  - You can add sections like "Usage" with detailed instructions, "Examples" with sample input and output, "Known Issues," etc.
+  - Always update the README with any changes you make to the code or features.
